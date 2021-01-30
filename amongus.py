@@ -32,8 +32,8 @@ def impostor():
     isImpostor = pm.read_int(forceimpostor_ptr)
     if isImpostor == 0:
         pm.write_int(forceimpostor_ptr, 1)
-    elif isImpostor == 1:
-        pm.write_int(forceimpostor_ptr, 0)
+    #elif isImpostor == 1:
+        #pm.write_int(forceimpostor_ptr, 0)
 
 def killcooldown(valueasked):
     A_ptr = module + 0x01C57F7C
