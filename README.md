@@ -1,2 +1,2 @@
-# amonguscheat
+# CHEATS
 IN DEVELOPMENT
